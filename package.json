@@ -1,23 +1,15 @@
 {
-  "name": "soda-mi-sabor-whatsapp-bot",
+  "name": "msgames-whatsapp-bot",
   "version": "1.0.0",
-  "description": "Chatbot de WhatsApp (Twilio) para SODA Mi SABOR: menú y pedidos.",
+  "description": "Chatbot de WhatsApp para MsGames (Twilio) listo para Sandbox y Producción.",
+  "type": "module",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
-  "engines": {
-    "node": ">=18"
+    "dev": "node --watch index.js",
+    "start": "node index.js"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "twilio": "^5.3.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+    "twilio": "^5.4.3"
   }
 }
-
