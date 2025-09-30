@@ -1,8 +1,5 @@
 {
-  "type": "module",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": { "start": "node index.js" },
   "dependencies": {
     "express": "^4.19.2",
     "twilio": "^5.4.3"
