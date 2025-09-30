@@ -250,3 +250,4 @@ app.listen(PORT, () => {
   const mode = shouldValidate ? "validando firma Twilio" : "SIN validación de firma";
   console.log(`✅ WhatsApp bot escuchando en :${PORT} (${mode})`);
 });
+
