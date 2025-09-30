@@ -1,8 +1,15 @@
 {
-  "scripts": { "start": "node index.js" },
+  "name": "msgames-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Chatbot de WhatsApp para MsGames (Twilio + Express).",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": { "node": ">=18.0.0" },
   "dependencies": {
     "express": "^4.19.2",
     "twilio": "^5.4.3"
-  },
-  "engines": { "node": ">=18.0.0" }
+  }
 }
