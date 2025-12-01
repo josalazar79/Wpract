@@ -1,17 +1,25 @@
 {
-  "name": "msgames-whatsapp-bot",
+  "name": "mpc-jsala-whatsapp-bot",
   "version": "1.0.0",
-  "description": "Chatbot de WhatsApp para MsGames (Twilio + Express).",
-  "type": "module",
+  "description": "Chatbot de WhatsApp para MPC JSALA (mantenimiento y reparación de computadoras portátiles) usando Twilio.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
+  "keywords": [
+    "whatsapp",
+    "twilio",
+    "chatbot",
+    "mpc-jsala",
+    "nodejs"
+  ],
+  "author": "MPC JSALA",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2",
-    "twilio": "^5.4.3"
-  }
-}
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "twilio": "^5.3.4"
+  },
+  "devDepende
