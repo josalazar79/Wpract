@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // (Opcional pero recomendado) Validación de requests de Twilio
 // Necesitas definir: TWILIO_AUTH_TOKEN
-const twilioAuthToken = process.env.TWILIO_AUTH_TOKEN; 
+const twilioAuthToken = process.env.TWILIO_AUTH_TOKEN;
 
 // Memoria simple para sesiones
 // key: numero del cliente (From), value: { step, data }
@@ -289,4 +289,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`✅ Server running on port ${PORT}`);
 });
-
